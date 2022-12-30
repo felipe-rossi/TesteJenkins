@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: tests.LogarNetflixTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.244 s <<< FAILURE! - in tests.LogarNetflixTest
+fazerLoginNaNetflix(tests.LogarNetflixTest)  Time elapsed: 0.226 s  <<< ERROR!
+java.lang.IllegalStateException: The driver executable must exist: C:\Users\felip\OneDrive\GitHub\ProjetosVivoWeb\projetosvivoweb\chromedriver.exe
+	at tests.LogarNetflixTest.setUp(LogarNetflixTest.java:16)
+
+fazerLoginNaNetflix(tests.LogarNetflixTest)  Time elapsed: 0.227 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.quit()" because "this.driver" is null
+	at tests.LogarNetflixTest.tearDown(LogarNetflixTest.java:28)
+
