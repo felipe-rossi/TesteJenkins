@@ -1,0 +1,7 @@
+suporte\Base.class
+suporte\TirarPrintDaTela.class
+pages\LoginPage.class
+pages\HomePage.class
+tests\LogarNetflixTest.class
+suporte\GerarDataHora.class
+suporte\CriarDriver.class
